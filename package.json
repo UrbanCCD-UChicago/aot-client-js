@@ -1,0 +1,27 @@
+{
+  "name": "aot-client-js",
+  "version": "0.1.0",
+  "description": "The Official JavaScript Client of the Array of Things API",
+  "main": "lib/index.js",
+  "repository": "https://github.com/UrbanCCD-UChicago/aot-client-js",
+  "author": "Vince Forgione <vforgione@uchicago.edu>",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.7.0",
+    "fetch-mock": "^7.2.0",
+    "mocha": "^5.2.0",
+    "node-fetch": "^2.2.0",
+    "yarn": "^1.10.1"
+  },
+  "scripts": {
+    "test": "mocha --require babel-polyfill --require babel-register",
+    "lint": "eslint .",
+    "build": "babel lib --out-dir dist"
+  }
+}

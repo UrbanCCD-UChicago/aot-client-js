@@ -1,0 +1,1 @@
+{"data":{"uom":"C","subsystem":"metsense","sensor":"bmp180","path":"metsense.bmp180.temperature","parameter":"temperature","ontology":"/sensing/meteorology/temperature","min":-40.0,"max":85.0,"data_sheet":"https://github.com/waggle-sensor/sensors/blob/master/sensors/airsense/bmp180.pdf"}}

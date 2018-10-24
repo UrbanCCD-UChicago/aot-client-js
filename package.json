@@ -1,6 +1,6 @@
 {
   "name": "aot-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Official JavaScript Client of the Array of Things API",
   "main": "lib/index.js",
   "repository": "https://github.com/UrbanCCD-UChicago/aot-client-js",
